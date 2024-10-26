@@ -1,0 +1,185 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5b8ab;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e5b8ab(115, 109, 109);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    padding: 10px 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.Menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #e5b8ab;
+}
+
+.search-box a {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    color: #333;
+}
+
+/* Contact Section */
+.contact-section {
+    padding-top: 80px; /* Padding to accommodate fixed navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    background-color:#e2dfdf;
+    min-height: 80vh;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    width: 50%;
+    background: #e2dfdf;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form .input-box {
+    margin-bottom: 15px;
+}
+
+.contact-form .input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.contact-form .input-box textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form .submit-btn {
+    padding: 12px 20px;
+    background-color: #e5b8ab;
+    color:black;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Map Section */
+.contact-map {
+    width: 550px; /* sau ajustați la dimensiunea dorită */
+    height: 500px;
+    margin-top: 50px; /* Ajustează valoarea pentru a coborî harta */
+    padding-left: 25px;
+    border: none;
+}
+
+
+
+/* Footer Section */
+.footer-section {
+    padding: 40px;
+    background-color:#e2dfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid #e5b8ab;
+}
+
+/* Reviews Section */
+.reviews-section form {
+    margin-top: 20px;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+    font-size: 24px;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    cursor: pointer;
+    color: #ddd;
+    transition: color 0.2s;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ceb4ac;
+}
+
+.submit-review-btn {
+    margin-top: 10px;
+    background-color: #e5b8ab;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.user-reviews {
+    margin-top: 20px;
+}

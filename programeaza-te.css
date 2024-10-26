@@ -1,0 +1,170 @@
+/* Resetarea stilurilor implicite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 1.6;
+    background-image: url('images/background.jpg'); /* Adaugă o imagine de fundal */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Header și meniu */
+.main-header {
+    background-color: rgba(51, 51, 51, 0.9); /* Opacitate pentru a face header-ul semi-transparent */
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 10;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase; /* Textul în majuscule pentru un aspect modern */
+    letter-spacing: 2px; /* Spațiere între litere */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #FFD700;
+    color: #333;
+    border-radius: 5px;
+}
+
+/* Banner sau Hero Image */
+.hero {
+    background-image: salon4.jpg('images/hero.jpg'); /* Adaugă o imagine reprezentativă pentru pagina ta */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-btn-hero {
+    background-color: #FFD700;
+    color: #333;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn-hero:hover {
+    background-color: #ff9900;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Secțiunea de programare */
+.programare {
+    background-color: #fff;
+    padding: 50px 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.programare h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #8e44ad;
+}
+
+.programare p, .programare ol {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: left;
+}
+
+.programare ol {
+    padding-left: 20px;
+    list-style: decimal inside;
+}
+
+.programare img {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Buton Programează-te */
+.cta-btn {
+    background-color: #FFD700;
+    color: #333;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ff9900;
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <!-- Main Navigation Menu -->
+    <div class="navbar">
+        <div class="main">
+            <h2 class="logo">Team 11</h2>    
+            <div class="Menu">
+                <ul>
+                    <li><a href="proj.html">Acasa</a></li>
+                    <li><a href="acasa.html">Despre noi</a></li>
+                    <li><a href="Serviciisipreturi.html">Servicii si Preturi</a></li>
+                    <li><a href="programeaza-te.html">Programeaza-te</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <input class="search-txt" type="text" placeholder="Cauta">
+                <a class="search-btn" href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section with Form -->
+    <div class="contact-section">
+        <div class="contact-form">
+            <h2>Contactează-ne</h2>
+            <br><p class="contact-description">„ Ne bucurăm să te avem alături de noi! La Salon Vision, prioritatea noastră este să-ți oferim o experiență de relaxare și frumusețe de neegalat. De la tunsori la modă și vopsiri creative, până la tratamente de îngrijire și styling personalizat, echipa noastră de profesioniști este aici să te ajute să arăți și să te simți minunat. ”</p>
+            <form action="#" method="post">
+               <br> <div class="input-box">
+                    <label for="name">Nume și Prenume</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div><br>
+                <div class="input-box">
+                    <label for="email">Adresa de Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div><br>
+                <div class="input-box">
+                    <label for="message">Mesajul tău</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+                </div><br>
+                <div class="terms">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">Accept <a href="#">Termenii & Condițiile</a></label>
+                </div><br>
+                <button type="submit" class="submit-btn">Trimite Mesaj</button>
+            </form>
+        </div><br>
+
+        <!-- Google Maps Section (Right Side) -->
+        <div class="contact-map">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2719.0341593480966!2d25.61136251565799!3d45.65575967910345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b35b83d5f621a3%3A0xa20bf0a44187eb79!2sBulevardul%20G%C4%83rii%203%2C%20Bra%C8%99ov%20500146%2C%20Romania!5e0!3m2!1sen!2sus!4v1698254223890!5m2!1sen!2sus"
+                width="350"
+                height="300"
+                style="border:0;" 
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Footer Section with Contact Details and Reviews -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="company-details">
+                <h3>Informații de Contact</h3>
+                <p><strong>Adresă:</strong> Bulevardul Gării 3, Brașov 500148, Romania</p>
+                <p><strong>Email:</strong> SalonVision@yahoo.com</p>
+                <p><strong>Telefon:</strong> +073 456 7890</p>
+            </div>
+
+           <br> <div class="reviews-section">
+                <h3>Ne-ar face plăcere să aflăm părerea ta! Împărtășește-ne experiența ta cu noi!</h3>
+                <form action="#" method="post">
+                    <div class="star-rating">
+                        <input type="radio" id="5-stars" name="rating" value="5">
+                        <label for="5-stars" class="star">&#9733;</label>
+                        <input type="radio" id="4-stars" name="rating" value="4">
+                        <label for="4-stars" class="star">&#9733;</label>
+                        <input type="radio" id="3-stars" name="rating" value="3">
+                        <label for="3-stars" class="star">&#9733;</label>
+                        <input type="radio" id="2-stars" name="rating" value="2">
+                        <label for="2-stars" class="star">&#9733;</label>
+                        <input type="radio" id="1-star" name="rating" value="1">
+                        <label for="1-star" class="star">&#9733;</label>
+                    </div>
+                    <textarea id="review" name="review" placeholder="Lasă recenzia ta aici..." required></textarea>
+                    <button type="submit" class="submit-review-btn">Trimite Recenzia</button>
+                </form>
+                
+                <div class="user-reviews">
+                    <h4>Recenzii:</h4>
+                    <p>⭐️⭐️⭐️⭐️⭐️ "Am fost uimită de cât de eficient și rapid lucrează echipa, fără să facă niciun compromis la calitate. Am avut doar 30 de minute disponibile, iar rezultatul a fost fantastic. Perfect pentru cineva cu un program încărcat!" - Ioana T.</p>
+                    <p>⭐️⭐️⭐️⭐️⭐️ "De fiecare dată când vin aici, mă simt răsfățată. Hairstylist-ul meu, Raluca, reușește mereu să mă surprindă cu ceva nou. Am încercat recent și vopsirea balayage, iar rezultatul a fost incredibil. Recomand cu drag!" - Maria P.</p>
+                    <p>⭐️⭐️⭐️⭐️⭐️ "Am fost să-mi schimb look-ul și am ales Salon Vision pentru această transformare. Rezultatul a fost peste așteptări, iar personalul a fost foarte atent la dorințele mele. Recomand oricui caută o schimbare de look!" - Diana R.</p>
+                    <p>⭐️⭐️⭐️⭐️⭐️ "Salon Vision are un vibe minunat! Atmosfera este caldă și primitoare, iar personalul te face să te simți ca acasă. Tunsorile sunt întotdeauna impecabile, iar prețurile sunt foarte rezonabile." - Elena S.</p>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>
